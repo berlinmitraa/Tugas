@@ -1,0 +1,167 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT IndustriJasa (LowonganKerja,klien,pekerja,Paket_Jasa,Pasang_Job)>
+<!ATTLIST IndustriJasa
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT LowonganKerja (post,judul,pekerjaan,skill,kebutuhan,pembukaan,
+                         penutupan,tempo_waktu,pendaftaran,komisi)>
+<!ATTLIST LowonganKerja
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT klien (nama,alamat,jenis_kelamin,ttl,industri,jabatan,email,username,
+                 password,telp)>
+<!ATTLIST klien
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT pekerja (nama,alamat,jenis_kelamin,ttl,pekerjaan,pengetahuan,email,
+                   username,password,telp)>
+<!ATTLIST pekerja
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT Paket_Jasa (transaksi_atm,rekening_bni,rekening_bca,atas_nama,
+                      kode_transaksi,paket_kebutuhan,tingkatan_produk,
+                      harga_produk,waktu_sewa,kontak)>
+<!ATTLIST Paket_Jasa
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT Pasang_Job (kategori,kebutuhan,budget,penutupan,username,email,
+                      nama_perusahaan,industri,kontak,alamat)>
+<!ATTLIST Pasang_Job
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT post (#PCDATA)>
+<!ATTLIST post
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT judul (#PCDATA)>
+<!ATTLIST judul
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT skill (#PCDATA)>
+<!ATTLIST skill
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT pembukaan (#PCDATA)>
+<!ATTLIST pembukaan
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT tempo_waktu (#PCDATA)>
+<!ATTLIST tempo_waktu
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT pendaftaran (#PCDATA)>
+<!ATTLIST pendaftaran
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT komisi (#PCDATA)>
+<!ATTLIST komisi
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT jabatan (#PCDATA)>
+<!ATTLIST jabatan
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT pengetahuan (#PCDATA)>
+<!ATTLIST pengetahuan
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT transaksi_atm (#PCDATA)>
+<!ATTLIST transaksi_atm
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT rekening_bni (#PCDATA)>
+<!ATTLIST rekening_bni
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT rekening_bca (#PCDATA)>
+<!ATTLIST rekening_bca
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT atas_nama (#PCDATA)>
+<!ATTLIST atas_nama
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT kode_transaksi (#PCDATA)>
+<!ATTLIST kode_transaksi
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT paket_kebutuhan (#PCDATA)>
+<!ATTLIST paket_kebutuhan
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT tingkatan_produk (#PCDATA)>
+<!ATTLIST tingkatan_produk
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT harga_produk (#PCDATA)>
+<!ATTLIST harga_produk
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT waktu_sewa (#PCDATA)>
+<!ATTLIST waktu_sewa
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT kategori (#PCDATA)>
+<!ATTLIST kategori
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT budget (#PCDATA)>
+<!ATTLIST budget
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT nama_perusahaan (#PCDATA)>
+<!ATTLIST nama_perusahaan
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT pekerjaan (#PCDATA)>
+<!ATTLIST pekerjaan
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT kebutuhan (#PCDATA)>
+<!ATTLIST kebutuhan
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT penutupan (#PCDATA)>
+<!ATTLIST penutupan
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT nama (#PCDATA)>
+<!ATTLIST nama
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT alamat (#PCDATA)>
+<!ATTLIST alamat
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT jenis_kelamin (#PCDATA)>
+<!ATTLIST jenis_kelamin
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT ttl (#PCDATA)>
+<!ATTLIST ttl
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT industri (#PCDATA)>
+<!ATTLIST industri
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT email (#PCDATA)>
+<!ATTLIST email
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT username (#PCDATA)>
+<!ATTLIST username
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT password (#PCDATA)>
+<!ATTLIST password
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT telp (#PCDATA)>
+<!ATTLIST telp
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT kontak (#PCDATA)>
+<!ATTLIST kontak
+    xmlns CDATA #FIXED ''>
